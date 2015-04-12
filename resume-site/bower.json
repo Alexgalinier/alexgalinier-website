@@ -1,0 +1,14 @@
+{
+  "name": "resume",
+  "version": "0.0.0",
+  "authors": [
+    "Alexgalinier <contact@alexgalinier.com>"
+  ],
+  "description": "AlexGalinier's resume",
+  "main": "index.html",
+  "license": "MIT",
+  "dependencies": {
+    "bower-webfontloader": "~1.5.13",
+    "lazyloader": "~1.0.0"
+  }
+}

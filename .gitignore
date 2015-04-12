@@ -1,0 +1,6 @@
+sensitive-data.js
+node_modules
+.idea/
+.sass-cache
+bower_components
+dist/

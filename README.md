@@ -1,4 +1,1 @@
-alexgalinier-website
-====================
-
-Own website code
+Personal website and stuff for hiring

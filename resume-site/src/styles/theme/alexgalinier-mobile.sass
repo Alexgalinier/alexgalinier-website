@@ -1,0 +1,116 @@
+@media all and (max-width: 1096px)
+  .lang-switch
+    top: 0
+    right: 0
+    width: auto
+    height: 48px
+    z-index: 3
+
+    .lang-switch-button
+      border: none
+      color: white
+      background: none
+      padding: 16px
+      border-radius: 0px
+
+      &:last-child
+        border-right: none
+        border-radius: 0px
+
+      &.is-current
+        background: #EFEBE9
+        color: #424242
+
+
+  .header
+    position: static
+    top: auto
+    left: auto
+    width: 100%
+    margin-top: 48px
+    background: #EFEBE9
+
+    h1, .row
+      margin-left: 0
+
+  .menu-mobile-overlay
+    transition: .25s linear
+
+    &.show
+      opacity: 1
+
+  .menu-mobile
+    display: block
+
+    .menu-mobile-button
+      transform: translateX(0)
+      transition: transform .25s linear
+
+    &.show
+      z-index: 4
+      .menu-mobile-button
+        transform: translateX(189px)
+
+  .menu
+    left: -300px
+    transition: .25s linear
+    transform: translateX(0)
+    box-shadow: 0 5px 10px rgba(0,0,0,.75)
+
+    .photo-profil
+      height: 120px
+      margin-bottom: 38px
+
+    .menu-links
+      .menu-links-item
+        font-size: 12px
+
+    &.show
+      transform: translateX(300px)
+
+  .content
+    position: static
+    top: auto
+    left: auto
+    width: auto
+    height: auto
+    min-height: calc(100vh - 216px)
+    overflow: hidden
+
+    .content-container
+      min-height: calc(100vh - 392px)
+
+@media all and (max-width: 732px)
+  .header
+    .row
+      line-height: 1.8em
+      padding-top: 0
+
+    .contact-sep
+      visibility: hidden
+      height: 1px
+      display: block
+
+  .content
+    .content-container
+      width: auto
+      padding: 24px
+      padding-top: 0
+
+@media all and (max-width: 550px)
+  .content
+    min-height: calc(100vh - 318px)
+
+    .content-container
+      min-height: auto
+
+    .navigate-trought-sections
+
+      .next-section
+        width: calc(100% - 60px)
+
+      .prev-section
+        width: 60px
+
+        h2
+          display: none

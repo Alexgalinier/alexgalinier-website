@@ -1,0 +1,11 @@
+/* TEAM */
+Alex Galinier
+contact[at]alexgalinier.com
+@Alexgalinier
+Toulouse, France
+
+/* SITE */
+Last update: 20/03/2015
+Standards: HTML5, CSS3
+Components: Reset.css
+Software: WebStorm, Node.js, Gulp
