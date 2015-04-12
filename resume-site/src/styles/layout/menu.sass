@@ -1,0 +1,90 @@
+.menu-mobile
+  display: none
+  z-index: 3
+  background: #424242
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+
+  .menu-mobile-button
+    position: relative
+    display: inline-block
+    text-transform: uppercase
+    color: #ffffff
+    padding: 16px
+    padding-left: 50px
+    font-size: 16px
+    line-height: 1
+    cursor: pointer
+
+    &:active
+      background: #515151
+
+    [class*=" icon-"], [class^=icon-]
+      position: absolute
+      top: 14px
+      left: 16px
+      font-size: 20px
+
+.menu-mobile-overlay
+  position: fixed
+  z-index: 1
+  display: none
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0
+  background: rgba(0,0,0,.5)
+  opacity: 0
+
+.menu
+  position: fixed
+  z-index: 2
+  top: 0
+  left: 32px
+  width: 300px
+  height: 100vh
+  background: #424242
+  overflow: auto
+
+  .photo-profil
+    height: 180px
+    width: auto
+    display: block
+    margin: 0 auto
+    margin-top: 58px
+
+  .menu-links
+    margin-top: 58px
+
+    .menu-links-item
+      position: relative
+      display: block
+      padding: 12px 17px
+      font-size: 14px
+      padding-left: 64px
+      line-height: 24px
+      color: #ffffff
+      border: none
+      border-top: 1px solid rgba(255,255,255,.15)
+      text-transform: uppercase
+      font-family: 'Roboto Slab', serif
+
+      &:last-child
+        border-bottom: 1px solid rgba(255,255,255,.15)
+
+      &.is-current, &:hover, &:active
+        background: rgba(0,0,0,.25)
+
+      [class*=" icon-"], [class^=icon-]
+        position: absolute
+        top: 8px
+        left: 16px
+        font-size: 16px
+        //background: #424242
+        border-radius: 100%
+        //color: white
+        padding: 8px
+        background: #EFEBE9
+        color: #424242

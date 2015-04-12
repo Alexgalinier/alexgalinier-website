@@ -1,0 +1,39 @@
+.navigate-trought-sections
+  margin-top: 64px
+  position: relative
+  background: #EFEBE9
+  height: 48px
+
+  h2
+    font-size: 24px
+    text-transform: uppercase
+    display: inline
+
+  .prev-section, .next-section
+    display: inline-block
+    width: 50%
+    border: none
+    outline: 0
+    padding: 12px 0
+
+    [class*=" icon-"], [class^=icon-]
+      font-size: 24px
+      margin: 0 16px
+      position: relative
+      top: 2px
+
+    &:hover
+      background: rgba(0,0,0,.1)
+
+    &:active
+      background: rgba(0,0,0,.1)
+
+
+  .prev-section
+    text-align: left
+
+  .next-section
+    position: absolute
+    top: 0
+    right: 0
+    text-align: right

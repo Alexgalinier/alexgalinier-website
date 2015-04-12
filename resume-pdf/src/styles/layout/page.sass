@@ -1,0 +1,28 @@
+.page
+  width: 21cm
+  height: 29.7cm
+  background: white
+  position: relative
+  margin-bottom: 30px
+
+  &.print-page
+    .menu
+      right: 24px
+      left: auto
+
+    .header
+      h1
+        margin-left: 0
+        margin-right: 308px
+
+      .row
+        margin-left: 0
+        margin-right: 308px
+
+    .content
+      left: 0
+      right: 308px
+
+@media print
+  .page
+    margin-bottom: 0
