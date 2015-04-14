@@ -28,6 +28,7 @@ var App = {
     Content.add('resume-notables', 'templates/fr/notables.html');
     Content.add('resume-references', 'templates/fr/references.html');
     Content.add('resume-hobbies', 'templates/fr/hobbies.html');
+    Content.add('resume-contact', 'templates/fr/contact.html');
     Content.add('logos', 'templates/fr/logos.html');
       //EN
     Content.add('resume-en-profile', 'templates/en/profil.html');
@@ -37,6 +38,7 @@ var App = {
     Content.add('resume-en-notables', 'templates/en/notables.html');
     Content.add('resume-en-references', 'templates/en/references.html');
     Content.add('resume-en-hobbies', 'templates/en/hobbies.html');
+    Content.add('resume-en-contact', 'templates/en/contact.html');
     Content.add('logos-en', 'templates/en/logos.html');
 
     //Routing
@@ -63,6 +65,7 @@ var App = {
       LangSwitcher.switchToLang('fr');
     });
     Router.add('/fr/hobbies', function() {Content.show('resume-hobbies'); Menu.show('fr'); LangSwitcher.switchToLang('fr');});
+    Router.add('/fr/contact', function() {Content.show('resume-contact'); Menu.show('fr'); LangSwitcher.switchToLang('fr');});
     Router.add('/fr/logos', function() {Content.show('logos'); Menu.show('fr'); LangSwitcher.switchToLang('fr');});
       //EN
     Router.add('/en/profile', function() {Content.show('resume-en-profile'); Menu.show('en'); LangSwitcher.switchToLang('en');});
@@ -87,6 +90,7 @@ var App = {
     });
     Router.add('/en/hobbies', function() {Content.show('resume-en-hobbies'); Menu.show('en'); LangSwitcher.switchToLang('en');});
     Router.add('/en/logos', function() {Content.show('logos-en'); Menu.show('en'); LangSwitcher.switchToLang('en');});
+    Router.add('/en/contact', function() {Content.show('resume-en-contact'); Menu.show('en'); LangSwitcher.switchToLang('en');});
 
     Router.onRouteChange(function() {
       Menu.updateLink();

@@ -28,6 +28,7 @@ LangSwitcherClass.prototype.switchToLangUrl = function(lang) {
         if (hash === '#/en/notables') url = '#/fr/projets-notables';
         if (hash === '#/en/references') url = '#/fr/references';
         if (hash === '#/en/hobbies') url = '#/fr/hobbies';
+        if (hash === '#/en/contact') url = '#/fr/contact';
         if (hash === '#/en/logos') url = '#/fr/logos';
         break;
       case 'en':
@@ -38,6 +39,7 @@ LangSwitcherClass.prototype.switchToLangUrl = function(lang) {
         if (hash === '#/fr/projets-notables') url = '/en/notables';
         if (hash === '#/fr/references') url = '/en/references';
         if (hash === '#/fr/hobbies') url = '#/en/hobbies';
+        if (hash === '#/fr/contact') url = '#/en/contact';
         if (hash === '#/fr/logos') url = '#/en/logos';
         break;
     }

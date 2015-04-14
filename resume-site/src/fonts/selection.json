@@ -4,6 +4,34 @@
 		{
 			"icon": {
 				"paths": [
+					"M852 0h-680c-94.6 0-172 77.4-172 172v680c0 94.6 77.4 172 172 172h680c94.6 0 172-77.4 172-172v-680c0-94.6-77.4-172-172-172zM384 832h-128v-448h128v448zM320 320c-35.346 0-64-28.654-64-64s28.654-64 64-64 64 28.654 64 64-28.654 64-64 64zM832 832h-128v-256c0-35.346-28.654-64-64-64s-64 28.654-64 64v256h-128v-448h128v79.472c26.398-36.264 66.752-79.472 112-79.472 79.53 0 144 71.634 144 160v288z"
+				],
+				"attrs": [],
+				"isMulticolor": false,
+				"tags": [
+					"linkedin",
+					"brand",
+					"social"
+				],
+				"defaultCode": 58575,
+				"grid": 16
+			},
+			"attrs": [],
+			"properties": {
+				"order": 9,
+				"id": 1581,
+				"prevSize": 32,
+				"code": 60104,
+				"ligatures": "linkedin, brand63",
+				"name": "linkedin"
+			},
+			"setIdx": 0,
+			"setId": 2,
+			"iconIdx": 456
+		},
+		{
+			"icon": {
+				"paths": [
 					"M621.254 877.254l320-320c24.994-24.992 24.994-65.516 0-90.51l-320-320c-24.994-24.992-65.516-24.992-90.51 0-24.994 24.994-24.994 65.516 0 90.51l210.746 210.746h-613.49c-35.346 0-64 28.654-64 64s28.654 64 64 64h613.49l-210.746 210.746c-12.496 12.496-18.744 28.876-18.744 45.254s6.248 32.758 18.744 45.254c24.994 24.994 65.516 24.994 90.51 0z"
 				],
 				"attrs": [
@@ -28,12 +56,12 @@
 			"properties": {
 				"order": 1,
 				"id": 1,
-				"prevSize": 16,
+				"prevSize": 32,
 				"code": 58888,
 				"name": "arrow-right"
 			},
-			"setIdx": 0,
-			"setId": 4,
+			"setIdx": 1,
+			"setId": 1,
 			"iconIdx": 0
 		},
 		{
@@ -63,12 +91,12 @@
 			"properties": {
 				"order": 2,
 				"id": 0,
-				"prevSize": 16,
+				"prevSize": 32,
 				"code": 58889,
 				"name": "arrow-left"
 			},
-			"setIdx": 0,
-			"setId": 4,
+			"setIdx": 1,
+			"setId": 1,
 			"iconIdx": 1
 		},
 		{
@@ -81,8 +109,10 @@
 					"profile",
 					"avatar"
 				],
-				"grid": 32
+				"grid": 32,
+				"attrs": []
 			},
+			"attrs": [],
 			"properties": {
 				"id": 7,
 				"order": 4,
@@ -90,9 +120,9 @@
 				"code": 58881,
 				"name": "profil"
 			},
-			"setIdx": 2,
-			"setId": 2,
-			"iconIdx": 7
+			"setIdx": 1,
+			"setId": 1,
+			"iconIdx": 2
 		},
 		{
 			"icon": {
@@ -105,8 +135,10 @@
 					"chat",
 					"talk"
 				],
-				"grid": 32
+				"grid": 32,
+				"attrs": []
 			},
+			"attrs": [],
 			"properties": {
 				"id": 20,
 				"order": 6,
@@ -114,9 +146,9 @@
 				"code": 58882,
 				"name": "reference"
 			},
-			"setIdx": 2,
-			"setId": 2,
-			"iconIdx": 20
+			"setIdx": 1,
+			"setId": 1,
+			"iconIdx": 3
 		},
 		{
 			"icon": {
@@ -128,8 +160,10 @@
 					"thumbs up",
 					"approve"
 				],
-				"grid": 32
+				"grid": 32,
+				"attrs": []
 			},
+			"attrs": [],
 			"properties": {
 				"id": 26,
 				"order": 5,
@@ -137,9 +171,9 @@
 				"code": 58883,
 				"name": "notable"
 			},
-			"setIdx": 2,
-			"setId": 2,
-			"iconIdx": 26
+			"setIdx": 1,
+			"setId": 1,
+			"iconIdx": 4
 		},
 		{
 			"icon": {
@@ -152,8 +186,10 @@
 					"flight",
 					"email"
 				],
-				"grid": 32
+				"grid": 32,
+				"attrs": []
 			},
+			"attrs": [],
 			"properties": {
 				"id": 30,
 				"order": 3,
@@ -161,9 +197,9 @@
 				"code": 58884,
 				"name": "hobbies"
 			},
-			"setIdx": 2,
-			"setId": 2,
-			"iconIdx": 30
+			"setIdx": 1,
+			"setId": 1,
+			"iconIdx": 5
 		},
 		{
 			"icon": {
@@ -177,8 +213,10 @@
 					"settings",
 					"options"
 				],
-				"grid": 32
+				"grid": 32,
+				"attrs": []
 			},
+			"attrs": [],
 			"properties": {
 				"id": 31,
 				"order": 7,
@@ -186,9 +224,9 @@
 				"code": 58886,
 				"name": "skills"
 			},
-			"setIdx": 2,
-			"setId": 2,
-			"iconIdx": 31
+			"setIdx": 1,
+			"setId": 1,
+			"iconIdx": 6
 		},
 		{
 			"icon": {
@@ -201,8 +239,10 @@
 					"hat",
 					"college"
 				],
-				"grid": 32
+				"grid": 32,
+				"attrs": []
 			},
+			"attrs": [],
 			"properties": {
 				"id": 36,
 				"order": 1,
@@ -210,9 +250,9 @@
 				"code": 58880,
 				"name": "study"
 			},
-			"setIdx": 2,
-			"setId": 2,
-			"iconIdx": 36
+			"setIdx": 1,
+			"setId": 1,
+			"iconIdx": 7
 		},
 		{
 			"icon": {
@@ -224,8 +264,10 @@
 					"money",
 					"cash"
 				],
-				"grid": 32
+				"grid": 32,
+				"attrs": []
 			},
+			"attrs": [],
 			"properties": {
 				"id": 44,
 				"order": 2,
@@ -233,9 +275,9 @@
 				"code": 58885,
 				"name": "exp"
 			},
-			"setIdx": 2,
-			"setId": 2,
-			"iconIdx": 44
+			"setIdx": 1,
+			"setId": 1,
+			"iconIdx": 8
 		},
 		{
 			"icon": {
@@ -248,8 +290,10 @@
 					"options",
 					"lines"
 				],
-				"grid": 20
+				"grid": 20,
+				"attrs": []
 			},
+			"attrs": [],
 			"properties": {
 				"id": 150,
 				"order": 8,
@@ -257,9 +301,9 @@
 				"code": 58887,
 				"name": "menu"
 			},
-			"setIdx": 4,
-			"setId": 0,
-			"iconIdx": 150
+			"setIdx": 1,
+			"setId": 1,
+			"iconIdx": 9
 		}
 	],
 	"height": 1024,
