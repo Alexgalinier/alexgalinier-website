@@ -33,27 +33,7 @@ gulp.task('build', function() {
   for(var letterIndex in letters) {
     letter = letters[letterIndex];
 
-    gulp.src([srcFolder+'templates/email.html', srcFolder+'templates/email-browser.html'])
-      .pipe(replace(/#LANG#/g, letter.lang))
-      .pipe(replace(/#TITLE#/g, letter.title))
-      .pipe(replace(/#VISUALIZE#/g, letter.visu))
-      .pipe(replace(/#LINK-TO-BROWSER-EMAIL#/g, 'http://alexgalinier.com/pro/emails/'+letter.name+'-browser.html'))
-      .pipe(replace(/#SUBJECT#/g, letter.subject))
-      .pipe(replace(/#DATE#/g, letter.date))
-      .pipe(replace(/#PARAG_1#/g, letter.prg_1))
-      .pipe(replace(/#PARAG_2#/g, letter.prg_2))
-      .pipe(replace(/#PARAG_3#/g, letter.prg_3))
-      .pipe(replace(/#PARAG_4#/g, letter.prg_4))
-      .pipe(replace(/#FINAL#/g, letter.final))
-      .pipe(replace(/#LINK_TO_PDF#/g, letter.pdf_link))
-      .pipe(minifyHTML())
-      .pipe(rename(function (path) {
-        path.basename = path.basename.replace('email', letter.name);
-      }))
-      .pipe(gulp.dest(buildFolder))
-      .on('end', function() {
-        deferred.resolve();
-      });
+    buildEmail(letter, deferred, letterIndex == (letters.length - 1));
   }
 
   return deferred.promise;
@@ -83,3 +63,34 @@ gulp.task('deploy', ['build'], function () {
   return gulp.src(buildFolder+'**/*')
     .pipe(conn.dest('/www/pro/emails/'));
 });
+
+/**
+ * Private
+ */
+
+function buildEmail(data, promise, doResolve) {
+  gulp.src([srcFolder+'templates/email.html', srcFolder+'templates/email-browser.html'])
+    .pipe(replace(/#LANG#/g, data.lang))
+    .pipe(replace(/#TITLE#/g, data.title))
+    .pipe(replace(/#VISUALIZE#/g, data.visu))
+    .pipe(replace(/#LINK-TO-BROWSER-EMAIL#/g, 'http://alexgalinier.com/pro/emails/'+data.name+'-browser.html'))
+    .pipe(replace(/#SUBJECT#/g, data.subject))
+    .pipe(replace(/#DATE#/g, data.date))
+    .pipe(replace(/#PARAG_1#/g, data.prg_1))
+    .pipe(replace(/#PARAG_2#/g, data.prg_2))
+    .pipe(replace(/#PARAG_3#/g, data.prg_3))
+    .pipe(replace(/#PARAG_4#/g, data.prg_4))
+    .pipe(replace(/#FINAL#/g, data.final))
+    .pipe(replace(/#LINK_TO_PDF_TEXT#/g, data.pdf_link_text))
+    .pipe(replace(/#LINK_TO_PDF#/g, data.pdf_link))
+    .pipe(minifyHTML())
+    .pipe(rename(function (path) {
+      path.basename = path.basename.replace('email', data.name);
+    }))
+    .pipe(gulp.dest(buildFolder))
+    .on('end', function() {
+      if (doResolve) {
+        promise.resolve();
+      }
+    });
+}

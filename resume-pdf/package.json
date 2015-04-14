@@ -19,7 +19,10 @@
     "gulp-plumber": "~1.0.0",
     "gulp-imagemin": "~2.2.1",
     "gulp-minify-html": "~1.0.1",
-    "gulp-minify-css": "~1.0.0"
+    "gulp-minify-css": "~1.0.0",
+    "gulp-replace": "~0.5.3",
+    "gulp-rename": "~1.2.2",
+    "q": "~1.2.0"
   },
   "devDependencies": {
     "browser-sync": "~2.3.1",
