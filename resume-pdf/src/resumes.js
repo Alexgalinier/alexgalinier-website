@@ -73,7 +73,7 @@ module.exports.resumes = [
   {
     "profile": "Profil",
     "profile_desc_1": "There is many kind of connections or interfaces on the web today: mobile, tablet, TV, watch, sensor, etc ... Materials are multiplying in the last few years, and lots of projects imagine new ways to exchange. These ideas enthusiast me in the Web.",
-    "profile_desc_2": "My expertise area is the development, deisgn and code, but I am also interesting in every face of a project. I have been developper, project manager, team leader, pre-sales officer, self employed, designer in many circumstances or projects. I'm looking forward the next episode...",
+    "profile_desc_2": "My expertise area is the development, deisgn and code, but I am also interesting in every face of a project. I have been developer, project manager, team leader, pre-sales officer, self employed, designer in many circumstances or projects. I'm looking forward the next episode...",
 
     "skills": "Skills",
     "skills_pro": "Professional",
@@ -114,7 +114,7 @@ module.exports.resumes = [
     "date_6": "EN Janvier 2014 - Février 2015",
     "text_6": "Simultaneously to my employment, i realized some contracts as self employed. The purpose was to challenge myself on the organization administrative activity, customer research and commercial negotiation. I've always chosen short missions that i can set quickly on my free time while keeping a high quality of service.",
 
-    "title_7": "MOBILE DEVELOPPER",
+    "title_7": "MOBILE DEVELOPER",
     "date_7": "July 2013 - October 2013",
     "text_7": "Android developer of OneBike application. We worked as a team for the product conception, and i've developed with Android Studio. We have won the DigitalPlace price at the Défi Numérique contest, organized by Toulouse's city.",
 
