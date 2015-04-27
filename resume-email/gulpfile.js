@@ -74,6 +74,7 @@ function buildEmail(data, promise, doResolve) {
     .pipe(replace(/#TITLE#/g, data.title))
     .pipe(replace(/#VISUALIZE#/g, data.visu))
     .pipe(replace(/#LINK-TO-BROWSER-EMAIL#/g, 'http://alexgalinier.com/pro/emails/'+data.name+'-browser.html'))
+    .pipe(replace(/#AGE#/g, data.age))
     .pipe(replace(/#SUBJECT#/g, data.subject))
     .pipe(replace(/#DATE#/g, data.date))
     .pipe(replace(/#PARAG_1#/g, data.prg_1))

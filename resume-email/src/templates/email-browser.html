@@ -178,7 +178,7 @@
         display: none;
       }
       
-      @media all and (max-width: 948px) {
+      @media screen and (max-width: 948px) {
         body {
           background: #424242;
         }
@@ -236,7 +236,7 @@
         }
       }
 
-      @media all and (max-width: 550px) {
+      @media screen and (max-width: 550px) {
         .header {
           padding: 55px 24px 55px 148px;
         }
@@ -248,6 +248,23 @@
         .header img {
           max-width: 100px;
           margin-top: -50px;
+        }
+      }
+
+      @media print {
+        .mail-core-parent {
+          padding: 0;
+          margin: 0;
+          width: 21cm;
+          height: 29.7cm;
+          background: white;
+        }
+
+        .mail-core {
+          box-shadow: none;
+          width: 21cm;
+          height: 29.7cm;
+          position: relative;
         }
       }
     </style>
@@ -274,7 +291,7 @@
           <img src="http://alexgalinier.com/static/images/mea_rounded_200x200.png" alt="Alexandre Galinier Photo" />
           <h1>ALEXANDRE GALINIER</h1>
           <p>
-            28 ans, Toulouse, France
+            #AGE#, Toulouse, France
           </p>
         </div>
 
