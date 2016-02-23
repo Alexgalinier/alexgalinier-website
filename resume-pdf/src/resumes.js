@@ -16,8 +16,8 @@ module.exports.resumes = [
     "skills_lang_fr": "Français",
     "skills_lang_en": "Anglais",
 
-    "experiences": "Expéricenes",
-    "experiences_next": "Expéricenes (suite)",
+    "experiences": "Expériences",
+    "experiences_next": "Expériences (suite)",
 
     "title_1": "Consultant Expert Web",
     "date_1": "Octobre 2014 - Janvier 2015",

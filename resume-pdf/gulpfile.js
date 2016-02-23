@@ -42,7 +42,7 @@ gulp.task('styles:clean', function () {
 
 gulp.task('images', function () {
   return gulp.src(imagesFolder+'*')
-    .pipe(imagemin())
+    //.pipe(imagemin())
     .pipe(gulp.dest(buildFolder+'images'));
 });
 
