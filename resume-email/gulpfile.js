@@ -12,6 +12,8 @@ var minifyHTML = require('gulp-minify-html');
 var replace = require('gulp-replace');
 var rename = require("gulp-rename");
 
+var letters = require('./src/letters.js').letters;
+
 /* ------------------------------
  * VARIABLES
  * ------------------------------ */
@@ -27,7 +29,6 @@ var reload = browserSync.reload;
 
 gulp.task('build', function() {
   var deferred = Q.defer(),
-    letters = require('./src/letters.js').letters,
     letter;
 
   for(var letterIndex in letters) {
