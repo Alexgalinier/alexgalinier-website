@@ -50,17 +50,7 @@ var App = {
     Router.add('/fr/formations', function() {Content.show('resume-education'); Menu.show('fr'); LangSwitcher.switchToLang('fr');});
     Router.add('/fr/projets-notables', function() {Content.show('resume-notables'); Menu.show('fr'); LangSwitcher.switchToLang('fr');});
     Router.add('/fr/references', function() {
-      Content.show('resume-references', function() {
-        Html.click('#contact-fr-alexis', function() {
-          this.href = 'mailto:' + 'a.lesage' + '@' + 'intent-technologies.eu';
-        });
-        Html.click('#contact-fr-seb', function() {
-          this.href = 'mailto:' + 's.balard' + '@' + 'onelight-studio.com';
-        });
-        Html.click('#contact-fr-marianne', function() {
-          this.href = 'mailto:' + 'comlilly' + '@' + 'gmail.com';
-        });
-      });
+      Content.show('resume-references');
       Menu.show('fr');
       LangSwitcher.switchToLang('fr');
     });
@@ -74,17 +64,7 @@ var App = {
     Router.add('/en/studies', function() {Content.show('resume-en-education'); Menu.show('en'); LangSwitcher.switchToLang('en');});
     Router.add('/en/notables', function() {Content.show('resume-en-notables'); Menu.show('en'); LangSwitcher.switchToLang('en');});
     Router.add('/en/references', function() {
-      Content.show('resume-en-references', function() {
-        Html.click('#contact-alexis', function() {
-          this.href = 'mailto:' + 'a.lesage' + '@' + 'intent-technologies.eu';
-        });
-        Html.click('#contact-seb', function() {
-          this.href = 'mailto:' + 's.balard' + '@' + 'onelight-studio.com';
-        });
-        Html.click('#contact-marianne', function() {
-          this.href = 'mailto:' + 'comlilly' + '@' + 'gmail.com';
-        });
-      });
+			Content.show('resume-en-references');
       Menu.show('en');
       LangSwitcher.switchToLang('en');
     });
