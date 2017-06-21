@@ -55,9 +55,9 @@ gulp.task('serve-reload', ['build'], function() {
 
 gulp.task('deploy', ['build'], function () {
   var conn = ftp.create( {
-    host: require('./../sensitive-data').ftp.host,
-    user: require('./../sensitive-data').ftp.user,
-    pass: require('./../sensitive-data').ftp.pass
+    host: require('../sensitive-data').ftp.host,
+    user: require('../sensitive-data').ftp.user,
+    pass: require('../sensitive-data').ftp.pass
   });
 
   return gulp.src(buildFolder+'**/*')

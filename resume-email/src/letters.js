@@ -21,13 +21,13 @@ module.exports.letters = [
     "lang":    "en",
     "title":   "Alex Galinier | Nom entreprise, introduction",
     "visu":    "Visualize this email in your browser",
-    "age":     "28 years",
+    "age":     "30 years",
     "subject": "DEAR ...,",
     "date":    "April 14th 2015",
-    "prg_1":   "With 6 years of web and mobile product development, project management, and the ability to solve problems at the right time, " +
+    "prg_1":   "With 8 years of web and mobile product development, project management, and the ability to solve problems at the right time, " +
       "i would like to propose my candidature for the full-stack Web-Developer job.",
-    "prg_2":   "I have developed and delivered many projects, from a simple POC (Prouf Of Concept) to a multi-services platform permanently connected, then i know how much important is a good time management and an effective communication.<br/>Besides developing my technical skills, i enjoyed taking part on every project aspects, giving my knowledge, my ideas and alternatives to my colleagues thus have guided my professional development. In this way, during my career i could :<br/>- Improve client relationship and project management by implementing an Agile method, Scrum<br/>- Participate in company creation<br/>- Transform an application portal to fit the clients and endusers needs",
-    "prg_3":   "I am staying to date with the latest innovations, techniques or technologies in order to expand my knowledges. I believe in this constant pursuit of wisdom, this is why, join your company is a real challenge for my future on which i hope to bring my actual and future skills.<br/>I have attached a resume which shows my profiles and aptitudes, my website also includes these informations. You can contact me on my phone or by mail.",
+    "prg_2":   "I have developed and delivered many projects, from a simple POC (Prouf Of Concept) to a multi-services platform permanently connected, then i know how much important is a good time management and an effective communication.<br/>Besides developing my technical skills, i enjoyed taking part on every project aspects, giving my knowledge, my ideas and alternatives to my colleagues thus have guided my professional development. In this way, during my career i could :<br/>- Improve client relationship and project management by implementing an Agile method, Scrum<br/>- Participate in company creation<br/>- Transform an application portal to fit the clients and endusers needs<br/>- Bring to life a micro-service platform used and enhanced by cross country developers",
+    "prg_3":   "I am staying upto-date with the latest innovations, techniques or technologies in order to expand my knowledges. I believe in this constant pursuit of wisdom, this is why, join your company is a real challenge for my future on which i hope to bring my actual and future skills.<br/>I have attached a resume which shows my profiles and aptitudes, my website also includes these informations. You can contact me on my phone or by mail.",
     "prg_4":   "I look forward to meeting with you to discuss this opportunity in detail.",
     "final":   "SINCERELY",
     "pdf_link_text": "If my resume is not available or has been blocked, you can download it at :",
@@ -219,4 +219,22 @@ module.exports.letters = [
     "pdf_link_text":"Vous avez surement déjà mon CV, au besoin, vous pouvez le télécharger sur :",
     "pdf_link": "http://alexgalinier.com/static/documents/Alex_Galinier_Resume_Fr_Mail.pdf"
   },
+
+	{
+		"name":    "bestmile-motivation",
+		"lang":    "en",
+		"title":   "Alex Galinier | BestMile, introduction",
+		"visu":    "Visualize this email in your browser",
+		"age":     "30 years",
+		"subject": "DEAR team,",
+		"date":    "June 21th 2017",
+		"prg_1":   "With 8 years of web responsive product development, project management, and the ability to solve problems at the right time, " +
+		"i would like to propose my candidature for the Senior Software Web Engineer job.",
+		"prg_2":   "I have developed and delivered many projects, from a simple POC (Prouf Of Concept) to a micro-services platform permanently connected, then i know how much important is a good time management and an effective communication.<br/>Besides developing my technical skills, i enjoyed taking part on every project aspects, sharing my knowledge, my ideas or giving alternatives to my colleagues. Thus have guided my professional development. In this way, during my career i could :<br/>- Improve client relationship and project management by implementing Scrum method<br/>- Participate into company creation<br/>- Transform an application portal to fit the clients and endusers needs<br/>- Bring to life a micro-service platform used and enhanced by cross country developers",
+		"prg_3":   "I am staying upto-date with the latest innovations, techniques or technologies in order to expand my knowledges. I believe in this constant pursuit of wisdom, this is why, joining your company is a real challenge for my future on which i hope to bring my actual and future skills.<br/>I have attached a resume which shows my profiles and aptitudes, my website also includes these informations. You can contact me on my phone or by mail.",
+		"prg_4":   "I look forward to meet you to discuss this opportunity in detail.",
+		"final":   "SINCERELY",
+		"pdf_link_text": "If my resume is not available or has been blocked, you can download it at :",
+		"pdf_link": "http://alexgalinier.com/static/documents/Alex_Galinier_Resume_En_Mail.pdf"
+	},
 ]
