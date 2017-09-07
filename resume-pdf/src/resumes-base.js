@@ -92,27 +92,31 @@ module.exports.resumes = [
 
 		"title_1": "Software Engineer",
 		"date_1": "July 2015 - Today",
-		"text_1": "Hired as a frontend developer (but quickly i had to manage JAVA backend too) i've been working on different business environments, usually to bring a monolitic webapp to a modular and extensible dependency. With this knowledege, i've defined, with a group, SICPA's next solution to build, test and develop webapps. Due to limited knowledge out of <b>AngularJS</b>, in the web developper community, we kept this framework, but we prepared the migration to <b>Angular 2</b> by using <b>Typescript</b> and a component approach. Once in place with a solid cli and build chain, i've <b>lead different presentations and workshops</b> to help other developpers to work with this stak. The adpotion was fast and positive.<br/>Since 1 year and a half, i've to joined the team in charge of deployment tools and development, <b>testing</b> libraries (UI/UX styleguide, skeletons, supports for gRPC, Keycloak, Kafka, Selenium) on this platform based on <b>OpenShift</b>. We have provided a pipeline to ease <b>continuous release and deployment</b>. I've acted as Scrum Master/Developer, again in the service of developers.",
+		"text_1": "Hired as a frontend developer (but quickly i had to manage JAVA backend too) i've been working on different business environments, usually to bring a monolitic webapp to a modular and extensible dependency. With this knowledege, i've defined, with a group, SICPA's next solution to build, test and develop webapps (adpotion was fast and positive).<br/>I got the chance to join the team in charge of deployment tools and development libraries (UI/UX styleguide, skeletons, supports for gRPC, Keycloak, Kafka) on this platform based on OpenShift. I've acted as Scrum Master/Developer, again in the service of developers.",
 
     "title_2": "Web Expert",
     "date_2": "October 2014 - January 2015",
-    "text_2": "I've put my Web and <b>UI/UX</b> experiences to work with a young team at the conception of an Intent OS that run own made or third party javascript applications. Development of two SDK, one for communication, the other one as styleguide. <b>Accompaniment in a graphical and ergonomic</b> evolution of the current platform for a better adoption of the users and clients.",
+    "text_2": "I've put my Web and UI/UX experiences to work with a young team at the conception of an Intent OS that run own made or third party javascript applications. Development of two SDK, one for communication, the other one as styleguide. Accompaniment in a graphic and ergonomic evolution of the current platform for a better adoption of the users and clients.",
 
     "title_3": "NETEVENT PROJECT MANAGER",
     "date_3": "September 2014 - October 2014",
-    "text_3": "Client manager and PhoneGap developer for a QR scanner and consultation application, published on Google Play Store, Apple Store and Windows Phone Store, following <b>design guidelines of each platform</b>.",
+    "text_3": "Client manager and PhoneGap developer for a QR scanner and consultation application, published on Google Play Store, Apple Store and Windows Phone Store, following design guidelines of each platform.",
+
+    "title_4": "PRE-SALES MANAGER",
+    "date_4": "February 2014 - October 2014",
+    "text_4": "Participating to customer's rendez-vous bringing a technical vision of the realization. Once their needs were satifactory refined, we were proposing a commercial figured offer with limits.",
 
     "title_5": "FIDELPASS PROJECT MANAGER",
     "date_5": "July 2009 - September 2014",
-    "text_5": "Client manager and Web platform's architect. I've helped to keep the client's trust and <b>refine his needs</b>. I've coordinate three developer teams, Web platform, Android tablet application and Android enduser application, by following a method <b>adjusted from an Agile best practices</b>. I've mostly developed for the web and partially for Android.",
+    "text_5": "Client manager and Web platform's architect. I've helped to keep the client's trust and refine his needs. I've coordinate three developer teams, Web platform, Android tablet application and Android enduser application, by following a method adjusted from an Agile approach. I've mostly developed for the web and partially for Android.",
 
     "title_6": "TECHNICAL MANAGER PRODUCT DEVELOPMENT",
     "date_6": "February 2014 - May 2014",
-    "text_6": "Conception and development for a customers animation in pubs, restaurants and hostels. Besides organizing needs redaction, i've helped on <b>mockups definition</b> and i've realized the Web Services platform and the firsts front-end screens.",
+    "text_6": "Conception and development for a customers animation in pubs, restaurants and hostels. Besides organizing needs redaction, i've helped on mockups definition and i've realized the Web Services platform and the firsts front-end screens.",
 
     "title_7": "SELF EMPLOYED",
     "date_7": "EN Janvier 2014 - Février 2015",
-    "text_7": "Simultaneously to my employment, i realized some contracts as self employed. The purpose was to challenge myself on the organization administrative activity, customer research and commercial negotiation. I've always chosen short missions that i can set quickly on my free time while keeping a <b>high quality of service</b>.",
+    "text_7": "Simultaneously to my employment, i realized some contracts as self employed. The purpose was to challenge myself on the organization administrative activity, customer research and commercial negotiation. I've always chosen short missions that i can set quickly on my free time while keeping a high quality of service.",
 
     "title_8": "WEB, PHONEGAP AND UX CONSULTANT",
     "date_8": "January 2013 - June 2013",

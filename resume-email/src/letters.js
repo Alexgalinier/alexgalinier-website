@@ -237,4 +237,38 @@ module.exports.letters = [
 		"pdf_link_text": "If my resume is not available or has been blocked, you can download it at :",
 		"pdf_link": "http://alexgalinier.com/static/documents/Alex-Galinier-Resume-EN.pdf"
 	},
+
+	{
+		"name":    "bbp-motivation",
+		"lang":    "en",
+		"title":   "Alex Galinier | BBP, introduction",
+		"visu":    "Visualize this email in your browser",
+		"age":     "30 years",
+		"subject": "DEAR team,",
+		"date":    "August 02th 2017",
+		"prg_1":   "I contact you to propose my candidature for the Software Engineer - Frontend Web Developer job.",
+		"prg_2":   "I have developed, delivered and maintained many projects, from a simple POC (Prouf Of Concept) to a micro-services platform permanently connected, then i know how much important is a good time management and an effective communication.<br/>Besides developing my technical skills, i enjoyed taking part on every project aspects, sharing my knowledge, my ideas or giving alternatives to my colleagues. Thus have guided my professional development. In this way, during my career i could :<br/>- Improve client relationship and project management following some Agile practices<br/>- Participate into company creation<br/>- Transform an application portal to fit the clients and endusers needs<br/>- Bring to life a micro-service platform used and enhanced by cross country developers",
+		"prg_3":   "To be fair, i don't know a lot about neuroinformatics, but i love to discover new domains, and i'm a really a fast learner when there is interest for me. I must say that helping you, with my humble knowledge, to exploit data in order to understand the brain a bit more, specialy in the context of Health, excites me a lot. As you have called the parent project, this is really Human.",
+		"prg_4":   "I look forward to meet you to discuss this opportunity in detail.",
+		"final":   "SINCERELY",
+		"pdf_link_text": "If my resume is not available or has been blocked, you can download it at :",
+		"pdf_link": "http://alexgalinier.com/static/documents/Alex-Galinier-Resume-EN.pdf"
+	},
+
+  {
+		"name":    "mobymax-motivation",
+		"lang":    "en",
+		"title":   "Alex Galinier | BBP, introduction",
+		"visu":    "Visualize this email in your browser",
+		"age":     "30 years",
+		"subject": "DEAR team,",
+		"date":    "August 02th 2017",
+		"prg_1":   "I contact you to propose my candidature for the Software Engineer - Frontend Web Developer job.",
+		"prg_2":   "I have developed, delivered and maintained many projects, from a simple POC (Prouf Of Concept) to a micro-services platform permanently connected, then i know how much important is a good time management and an effective communication.<br/>Besides developing my technical skills, i enjoyed taking part on every project aspects, sharing my knowledge, my ideas or giving alternatives to my colleagues. Thus have guided my professional development. In this way, during my career i could :<br/>- Improve client relationship and project management following some Agile practices<br/>- Participate into company creation<br/>- Transform an application portal to fit the clients and endusers needs<br/>- Bring to life a micro-service platform used and enhanced by cross country developers",
+		"prg_3":   "I'm currently leaving a big company and to be honest, i was more looking for a teacher job. Because i want to do something that has meaning to me, and education is for me the target number one if we want to live in a less stressed and violent world. By joining you, i feel like i can conciliate what i know and like to do with what i want to provide!",
+		"prg_4":   "I look forward to meet you to discuss this opportunity in detail.",
+		"final":   "SINCERELY",
+		"pdf_link_text": "If my resume is not available or has been blocked, you can download it at :",
+		"pdf_link": "http://alexgalinier.com/static/documents/Alex-Galinier-Resume-EN.pdf"
+	},
 ]
