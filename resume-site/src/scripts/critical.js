@@ -16,7 +16,7 @@ window.onload = function() {
     img.onload = function () {
       document.getElementById('menu').insertBefore(img, document.getElementById('menu').firstChild);
     };
-    img.src = 'http://alexgalinier.com/static/images/mea_rounded_200x200.png';
+    img.src = 'https://alexgalinier.com/static/images/mea_rounded_200x200.png';
 
 
     lazy.load(['alexgalinier.css'], function() {

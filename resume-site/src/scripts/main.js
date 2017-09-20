@@ -78,7 +78,7 @@ var App = {
       document.body.scrollTop = 0;
     });
 
-    Http.get('http://alexgalinier.com/lang.php', function(data) {
+    Http.get('https://alexgalinier.com/lang.php', function(data) {
       var res = JSON.parse(data);
       if (res.lang == 'en') {
         Router.otherwise('/en/profile');

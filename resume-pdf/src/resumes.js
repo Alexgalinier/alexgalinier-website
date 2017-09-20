@@ -51,7 +51,7 @@ module.exports.resumes = [
     "date_8": "Janvier 2013 - Juin 2013",
     "text_8": "Consultant Web pour aider la société MHCOMM au choix de la technologie à mettre en oeuvre dans le but de proposer une application mobile à leurs clients. C'est PhoneGap qui sera retenu. J'ai réalisé le wireframing, et j'ai développé le prototype PhoneGap pour une démonstration à un client.",
 
-    "hobbies_1": "En plus de mes projets professionels, je créé, teste, des outils ou des méthodologies qui peuvent m'apporter plus de connaissances dans mon travail ou améliorer ma technique ou mon organisation. Je met en pratique ces idées ou concept sur <a href=\"https://github.com/alexgalinier\">Github</a>, <a href=\"http://jsfiddle.net/AlexGalinier/ngzkapoq/\">JSFiddle</a> ou je les partage sur <a href=\"https://twitter.com/alexgalinier\">Twitter</a>.",
+    "hobbies_1": "En plus de mes projets professionels, je créé, teste, des outils ou des méthodologies qui peuvent m'apporter plus de connaissances dans mon travail ou améliorer ma technique ou mon organisation. Je met en pratique ces idées ou concept sur <a href=\"https://github.com/alexgalinier\">Github</a>, <a href=\"https://jsfiddle.net/AlexGalinier/ngzkapoq/\">JSFiddle</a> ou je les partage sur <a href=\"https://twitter.com/alexgalinier\">Twitter</a>.",
     "hobbies_2": "Je pratique la plongée en bouteille, niveau <a target=\"_blank\" href=\"http://www.cmas.org/sitemap/two-star-diver-training-programme\">CMAS 2 stars</a>, espérant visiter les plus beaux sites du monde.",
     "hobbies_3": "Je suis égalemnt rôliste depuis plus de 15 ans, au delà du plaisir de jeu lors de soirée entre amis, le jeu de rôle stimule énormément l'imagination et la réactivité, deux composantes essentielles dans mon travail aujourd'hui.",
 
@@ -118,7 +118,7 @@ module.exports.resumes = [
     "date_8": "January 2013 - June 2013",
     "text_8": "Web consultant for MHCOMM company, helping them to choose the right tool to implement a mobile application for their customers. PhoneGap was chosen. I've realized the wireframing, and developed a PhoneGap prototype for a customer demonstration.",
 
-    "hobbies_1": "Besides my professional projects, i create and test many tools or methods which can give me more knowledge in my job or improve my technical skills and organization. I practice these ideas and concepts on <a href=\"https://github.com/alexgalinier\">Github</a>, <a href=\"http://jsfiddle.net/AlexGalinier/ngzkapoq/\">JSFiddle</a> and share them on <a href=\"https://twitter.com/alexgalinier\">Twitter</a>.",
+    "hobbies_1": "Besides my professional projects, i create and test many tools or methods which can give me more knowledge in my job or improve my technical skills and organization. I practice these ideas and concepts on <a href=\"https://github.com/alexgalinier\">Github</a>, <a href=\"https://jsfiddle.net/AlexGalinier/ngzkapoq/\">JSFiddle</a> and share them on <a href=\"https://twitter.com/alexgalinier\">Twitter</a>.",
     "hobbies_2": "I'm a diver, grade <a target=\"_blank\" href=\"http://www.cmas.org/sitemap/two-star-diver-training-programme\">CMAS 2 stars</a>, in the hope of seeing the greatest sites in the world.",
     "hobbies_3": "I also practice roleplaying games for the past 15 years, besides the fun during party with friends, roleplaying boost imagination and creativity a lot, two essential parts of my daily job.",
 

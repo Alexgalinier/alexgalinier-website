@@ -14,7 +14,7 @@ module.exports.letters = [
     "prg_4":   "J'espère pouvoir vous rencontrer pour échanger à propos de cette opportunité.",
     "final":   "SINCÈREMENT",
     "pdf_link_text":"Si jamais mon CV en pièce jointe n'est pas disponible ou a été bloqué, vous pouvez le télécharger sur :",
-    "pdf_link": "http://alexgalinier.com/static/documents/Alex_Galinier_Resume_Fr_Mail.pdf"
+    "pdf_link": "https://alexgalinier.com/static/documents/Alex_Galinier_Resume_Fr_Mail.pdf"
   },
   {
     "name":    "base-en-introduction",
@@ -31,7 +31,7 @@ module.exports.letters = [
     "prg_4":   "I look forward to meeting with you to discuss this opportunity in detail.",
     "final":   "SINCERELY",
     "pdf_link_text": "If my resume is not available or has been blocked, you can download it at :",
-    "pdf_link": "http://alexgalinier.com/static/documents/Alex_Galinier_Resume_En_Mail.pdf"
+    "pdf_link": "https://alexgalinier.com/static/documents/Alex_Galinier_Resume_En_Mail.pdf"
   },
 
   //Blue infinity
@@ -50,7 +50,7 @@ module.exports.letters = [
     "prg_4":   "J'espère pouvoir vous rencontrer pour échanger à propos d'une opportunité sur un de ces postes.",
     "final":   "SINCÈREMENT",
     "pdf_link_text":"Si jamais mon CV en pièce jointe n'est pas disponible ou a été bloqué, vous pouvez le télécharger sur :",
-    "pdf_link": "http://alexgalinier.com/static/documents/Alex_Galinier_Resume_Fr_Mail.pdf"
+    "pdf_link": "https://alexgalinier.com/static/documents/Alex_Galinier_Resume_Fr_Mail.pdf"
   },
 
   //Lynoe
@@ -69,7 +69,7 @@ module.exports.letters = [
     "prg_4":   "I look forward to meeting with you to discuss this opportunity in detail.",
     "final":   "SINCERELY",
     "pdf_link_text": "If my resume is not available or has been blocked, you can download it at :",
-    "pdf_link": "http://alexgalinier.com/static/documents/Alex_Galinier_Resume_En_Mail.pdf"
+    "pdf_link": "https://alexgalinier.com/static/documents/Alex_Galinier_Resume_En_Mail.pdf"
   },
 
   //Younergy
@@ -87,7 +87,7 @@ module.exports.letters = [
     "prg_4":   "I look forward to meeting with you to discuss this opportunity in detail around a pasta plate (i make risotto well too!)",
     "final":   "SINCERELY",
     "pdf_link_text": "If my resume is not available or has been blocked, you can download it at :",
-    "pdf_link": "http://alexgalinier.com/static/documents/Alex_Galinier_Resume_En_Mail.pdf"
+    "pdf_link": "https://alexgalinier.com/static/documents/Alex_Galinier_Resume_En_Mail.pdf"
   },
 
   //SalesWings
@@ -106,7 +106,7 @@ module.exports.letters = [
     "prg_4":   "I look forward to meeting with you to discuss this opportunity in detail.",
     "final":   "SINCERELY",
     "pdf_link_text": "If my resume is not available or has been blocked, you can download it at :",
-    "pdf_link": "http://alexgalinier.com/static/documents/Alex_Galinier_Resume_En_Mail.pdf"
+    "pdf_link": "https://alexgalinier.com/static/documents/Alex_Galinier_Resume_En_Mail.pdf"
   },
 
   //ScanTrust
@@ -125,7 +125,7 @@ module.exports.letters = [
     "prg_4":   "I look forward to meeting with you to discuss on an opportunity in detail.",
     "final":   "SINCERELY",
     "pdf_link_text": "If my resume is not available or has been blocked, you can download it at :",
-    "pdf_link": "http://alexgalinier.com/static/documents/Alex_Galinier_Resume_En_Mail.pdf"
+    "pdf_link": "https://alexgalinier.com/static/documents/Alex_Galinier_Resume_En_Mail.pdf"
   },
 
   //Cash sentinel
@@ -144,7 +144,7 @@ module.exports.letters = [
     "prg_4":   "J'espère pouvoir vous rencontrer pour échanger à propos d'une opportunité sur un de ces postes.",
     "final":   "SINCÈREMENT",
     "pdf_link_text":"Si jamais mon CV en pièce jointe n'est pas disponible ou a été bloqué, vous pouvez le télécharger sur :",
-    "pdf_link": "http://alexgalinier.com/static/documents/Alex_Galinier_Resume_Fr_Mail.pdf"
+    "pdf_link": "https://alexgalinier.com/static/documents/Alex_Galinier_Resume_Fr_Mail.pdf"
   },
 
   //GoodWall
@@ -163,7 +163,7 @@ module.exports.letters = [
     "prg_4":   "I look forward to meeting with you to discuss on an opportunity in detail.",
     "final":   "SINCERELY",
     "pdf_link_text": "If my resume is not available or has been blocked, you can download it at :",
-    "pdf_link": "http://alexgalinier.com/static/documents/Alex_Galinier_Resume_En_Mail.pdf"
+    "pdf_link": "https://alexgalinier.com/static/documents/Alex_Galinier_Resume_En_Mail.pdf"
   },
 
   //SICPA
@@ -182,7 +182,7 @@ module.exports.letters = [
     "prg_4":   "I look forward to meeting with you to discuss this opportunity in detail.",
     "final":   "SINCERELY",
     "pdf_link_text": "If my resume is not available or has been blocked, you can download it at :",
-    "pdf_link": "http://alexgalinier.com/static/documents/Alex_Galinier_Resume_En_Mail.pdf"
+    "pdf_link": "https://alexgalinier.com/static/documents/Alex_Galinier_Resume_En_Mail.pdf"
   },
 
   {
@@ -200,7 +200,7 @@ module.exports.letters = [
     "prg_4":   "J'espère pouvoir vous rencontrer pour échanger à propos de cette opportunité.",
     "final":   "SINCÈREMENT",
     "pdf_link_text":"Si jamais mon CV en pièce jointe n'est pas disponible ou a été bloqué, vous pouvez le télécharger sur :",
-    "pdf_link": "http://alexgalinier.com/static/documents/Alex_Galinier_Resume_Fr_Mail.pdf"
+    "pdf_link": "https://alexgalinier.com/static/documents/Alex_Galinier_Resume_Fr_Mail.pdf"
   },
 
   {
@@ -217,7 +217,7 @@ module.exports.letters = [
     "prg_4":   "",
     "final":   "SINCÈREMENT",
     "pdf_link_text":"Vous avez surement déjà mon CV, au besoin, vous pouvez le télécharger sur :",
-    "pdf_link": "http://alexgalinier.com/static/documents/Alex_Galinier_Resume_Fr_Mail.pdf"
+    "pdf_link": "https://alexgalinier.com/static/documents/Alex_Galinier_Resume_Fr_Mail.pdf"
   },
 
 	{
@@ -235,7 +235,7 @@ module.exports.letters = [
 		"prg_4":   "I look forward to meet you to discuss this opportunity in detail.",
 		"final":   "SINCERELY",
 		"pdf_link_text": "If my resume is not available or has been blocked, you can download it at :",
-		"pdf_link": "http://alexgalinier.com/static/documents/Alex-Galinier-Resume-EN.pdf"
+		"pdf_link": "https://alexgalinier.com/static/documents/Alex-Galinier-Resume-EN.pdf"
 	},
 
 	{
@@ -252,7 +252,7 @@ module.exports.letters = [
 		"prg_4":   "I look forward to meet you to discuss this opportunity in detail.",
 		"final":   "SINCERELY",
 		"pdf_link_text": "If my resume is not available or has been blocked, you can download it at :",
-		"pdf_link": "http://alexgalinier.com/static/documents/Alex-Galinier-Resume-EN.pdf"
+		"pdf_link": "https://alexgalinier.com/static/documents/Alex-Galinier-Resume-EN.pdf"
 	},
 
   {
@@ -269,6 +269,6 @@ module.exports.letters = [
 		"prg_4":   "I look forward to meet you to discuss this opportunity in detail.",
 		"final":   "SINCERELY",
 		"pdf_link_text": "If my resume is not available or has been blocked, you can download it at :",
-		"pdf_link": "http://alexgalinier.com/static/documents/Alex-Galinier-Resume-EN.pdf"
+		"pdf_link": "https://alexgalinier.com/static/documents/Alex-Galinier-Resume-EN.pdf"
 	},
 ]
