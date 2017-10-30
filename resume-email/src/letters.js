@@ -271,4 +271,38 @@ module.exports.letters = [
 		"pdf_link_text": "If my resume is not available or has been blocked, you can download it at :",
 		"pdf_link": "https://alexgalinier.com/static/documents/Alex-Galinier-Resume-EN.pdf"
 	},
+
+  {
+		"name":    "inboxlab-motivation",
+		"lang":    "en",
+		"title":   "Alex Galinier | InboxLab, introduction",
+		"visu":    "Visualize this email in your browser",
+		"age":     "30 years",
+		"subject": "DEAR team,",
+		"date":    "September 25th 2017",
+		"prg_1":   "I contact you to propose my candidature for the Front-end Web Developer job.",
+		"prg_2":   "I have developed, delivered and maintained many projects, from a simple POC (Prouf Of Concept) to a micro-services platform permanently connected, then i know how much important is a good time management and an effective communication.<br/>Besides developing my technical skills, i enjoyed taking part on every project aspects, sharing my knowledge, my ideas or giving alternatives to my colleagues. Thus have guided my professional development. In this way, during my career i could :<br/>- Improve client relationship and project management following some Agile practices<br/>- Participate into company creation<br/>- Transform an application portal to fit the clients and endusers needs<br/>- Bring to life a micro-service platform used and enhanced by cross country developers",
+		"prg_3":   "I've just left a big company where the will to make a great product was present but not the organisation. When i look at the roles you attach to a project, and the key quality points you name, i think you already master what they were missing. I love to work in small teams with highly skilled people that have dedicated tasks, everyone trust the other to do what he is supposed to do and not overlap each other work.",
+		"prg_4":   "I look forward to meet you to discuss this opportunity in detail.",
+		"final":   "SINCERELY",
+		"pdf_link_text": "If my resume is not available or has been blocked, you can download it at :",
+		"pdf_link": "https://alexgalinier.com/static/documents/Alex-Galinier-Resume-EN.pdf"
+	},
+
+  {
+		"name":    "conferize-motivation",
+		"lang":    "en",
+		"title":   "Alex Galinier | Conferize, introduction",
+		"visu":    "Visualize this email in your browser",
+		"age":     "30 years",
+		"subject": "HI Damian,",
+		"date":    "September 25th 2017",
+		"prg_1":   "I contact you to propose my candidature for the Senior Front-end Developer job.",
+		"prg_2":   "I have developed, delivered and maintained many projects, from a simple POC (Prouf Of Concept) to a micro-services platform permanently connected, then i know how much important is a good time management and an effective communication.<br/>Besides developing my technical skills, i enjoyed taking part on every project aspects, sharing my knowledge, my ideas or giving alternatives to my colleagues. Thus have guided my professional development. In this way, during my career i could :<br/>- Improve client relationship and project management following some Agile practices<br/>- Participate into company creation<br/>- Transform an application portal to fit the clients and endusers needs<br/>- Bring to life a micro-service platform used and enhanced by cross country developers",
+		"prg_3":   "I loved what i read in this job description because it's really different than other job description which focus on skills. You need skilled people for sure but the person seams to matter a lot for you. I feel like everyone in the team will have this kind of spirit and that's exactly what i'm looking for. Big plus, your project is about knowledge sharing and that's a field that i'm now willing to put effort in. To be honest i currently leave a job in a big company and i hesitate between development or teaching (computer science or even school teacher). So working to help you making a great product in this area has a real meaning to me.",
+		"prg_4":   "I have React code example on Github but not AngularJS. What i've done for my current company could be really interesting but they kept jealously everything internal, so if you want to go further with me, i will talk with them to see the best approach to share this code with you.<br/><br/>I look forward to meet you to discuss this opportunity in detail.",
+		"final":   "SINCERELY",
+		"pdf_link_text": "If my resume is not available or has been blocked, you can download it at :",
+		"pdf_link": "https://alexgalinier.com/static/documents/Alex-Galinier-Resume-EN.pdf"
+	},
 ]
