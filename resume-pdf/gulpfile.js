@@ -3,7 +3,7 @@
  * ------------------------------ */
 var gulp = require('gulp');
 var Q = require('q');
-var sass = require('gulp-ruby-sass');
+var sass = require('gulp-sass');
 var del = require('del');
 var browserSync = require('browser-sync');
 var watch = require('gulp-watch');
@@ -29,8 +29,8 @@ var reload = browserSync.reload;
  * TASKS
  * ------------------------------ */
 gulp.task('styles', ['styles:clean'], function () {
-  return sass(stylesFolder+'theme/alexgalinier.sass', {sourcemap: false, container: 'styles'}) //Define a container to avoir error on multiple sass execution
-    .pipe(plumber())
+  return gulp.src(stylesFolder+'theme/alexgalinier.sass')
+    .pipe(sass().on('error', sass.logError))
     .pipe(autoprefixer())
     .pipe(minifyCSS())
     .pipe(gulp.dest(buildFolder));

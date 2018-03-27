@@ -4,7 +4,9 @@
   "description": "Alex Galinier's resume pdf",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "gulp build",
+    "test": "echo 'There is no tests'",
+    "serve": "gulp serve"
   },
   "author": "Alexgalinier",
   "license": "MIT",
@@ -26,7 +28,8 @@
   },
   "devDependencies": {
     "browser-sync": "~2.3.1",
-    "gulp-watch": "~4.1.1",
-    "gulp": "~3.8.11"
+    "gulp": "~3.8.11",
+    "gulp-sass": "^3.2.1",
+    "gulp-watch": "~4.1.1"
   }
 }

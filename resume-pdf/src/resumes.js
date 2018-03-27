@@ -19,33 +19,29 @@ module.exports.resumes = [
     "experiences": "Expériences",
     "experiences_next": "Expériences (suite)",
 
-		"title_1": "Software Engineer",
-		"date_1": "July 2015 - Today",
-		"text_1": "Embauché comme developpeur frontend (rapidement fullstack) j'ai travailler dans différents environnements métier, pour transformer des webapps monolithiques en composants extensibles. Avec ces connaissances, j'ai eu à définir, en groupe, l'architecture (dév, tests, ...) des webapps de la prochaine solution Sicpa (l'adpotion fut rapide et positive).<br/>J'ai eu la chance de rejointe l'équipe en charge des outils de déploiement et des librairies de développement (UI/UX styleguide, skeletons, supports for gRPC, Keycloak, Kafka) de cette solution basée sur OpenShift. Je divisais mon travail entre Scrum Master et développeur, au service des autres.",
+		"title_1": "Auto Entrepreneur",
+		"date_1": "February 2018 - Today",
+		"text_1": "Afin de travailler dans des domaines qui me sont chers, j'ai démarré la création de 2 projets ainsi que des outils d'aide au développement, tous <b>gratuits et en open source</b>.<br/>Le premier projet est un outil d'<b>accompagnement</b> pour les enseignants et élèves basé sur la pédagie Freinet. Le second est une webapp d'<b>aide</b> à la budgetisation axé sur les personnes ou familles en difficultées financières. Ainsi que divers outils qui <b>facilitent et structure</b> le développement.",
 
-    "title_2": "Consultant Expert Web",
-    "date_2": "Octobre 2014 - Janvier 2015",
-    "text_2": "Consultant Web pour accompagner une jeune équipe dans la création d'un OS javascript d'applications propriétaires ou développées par des tiers. Création de deux SDK, un pour la communication, un autre de guide graphiques. Accompagnement dans l'évolution ergonomique et graphique de la plateforme actuelle pour une meilleure adoption par les clients/utilisateurs.",
+    "title_2": "Software Engineer",
+		"date_2": "July 2015 - November 2017",
+		"text_2": "Embauché comme developpeur frontend (rapidement fullstack) j'ai travailler dans différents environnements métier, pour transformer des webapps monolithiques en composants extensibles. Avec ces connaissances, j'ai eu à définir, en groupe, <b>l'architecture (dév, tests, ...) des webapps</b> de la prochaine solution Sicpa (l'adpotion fut rapide et positive).<br/>J'ai eu la chance de rejoindre l'équipe en charge des outils de déploiement et des librairies de développement (UI/UX styleguide, skeletons, supports for gRPC, Keycloak, Kafka) de cette solution basée sur <b>OpenShift</b>. Je divisais mon travail entre Scrum Master et développeur, au service des autres.",
 
-    "title_3": "Responsable Projet NetEvent",
-    "date_3": "Septembre 2014 - Octobre 2014",
-    "text_3": "Responsable client et développeur PhoneGap pour une application de scan QR code et consultation, publiée sur les stores Google, Apple et Windows, chacunes suivant les designs spécifiques de sa plateforme.",
-
-    "title_4": "Responsable Avant Vente",
-    "date_4": "Février 2014 - Octobre 2014",
-    "text_4": "Rencontre et suivi de prospects afin d'apporter une vision plus technique dans la discussion commerciale. Une fois leurs besoins affinés, nous établisions avec l’équipe, une proposition commerciale chiffrée et bornée.",
+    "title_3": "Consultant Expert Web",
+    "date_3": "Octobre 2014 - Janvier 2015",
+    "text_3": "Consultant Web pour accompagner une jeune équipe dans la création d'un <b>OS javascript d'applications</b> propriétaires ou développées par des tiers. Création de deux SDK, un pour la communication, un autre de guide graphiques. Accompagnement dans l'évolution <b>ergonomique</b> et graphique de la plateforme actuelle pour une meilleure adoption par les clients/utilisateurs.",
 
     "title_5": "Responsable Projet FidelPass",
     "date_5": "Juillet 2009 - Septembre 2014",
-    "text_5": "Responsable client et architecte de la plateforme Web. J'ai aidé à mettre le client en confiance et à raffiner ses besoins. J'ai coordonné 3 équipes de développement, plateforme Web, application Android tablette et application Android utilisateur en suivant une méthode dérivée des méthodes agiles. J'ai principalement développé pour le Web et en partie pour Android.",
+    "text_5": "Responsable client et architecte de la plateforme Web. J'ai aidé à mettre le client en confiance et à <b>raffiner ses besoins</b>. J'ai coordonné 3 équipes de développement, plateforme Web, application Android tablette et application Android utilisateur en suivant une <b>méthode dérivée des méthodes agiles</b>. J'ai principalement développé pour le Web et en partie pour Android.",
 
     "title_6": "RESPONSABLE TECHNIQUE DÉVELOPPEMENT PRODUIT",
     "date_6": "Février 2014 - Mai 2014",
-    "text_6": "Conception et développement d'un produit d'animation de la clientèle de bars et restaurants. J'ai participé à la coordination des parties prenantes lors de la conception. J'ai aidé à la définition des mockups et j'ai réalisé la plateforme Web services et les premiers écrans du front-end Web.",
+    "text_6": "Conception et développement d'un produit d'animation de la clientèle de bars et restaurants. J'ai participé à la coordination des parties prenantes lors de la conception. J'ai aidé à la définition des <b>mockups</b> et j'ai réalisé la plateforme Web services et les premiers écrans du front-end Web.",
 
     "title_7": "AUTO ENTREPRENEUR",
     "date_7": "Janvier 2014 - Février 2015",
-    "text_7": "En parallèle de mon activé salariée, j’ai réalisé des missions en auto entrepreneur. Le but était de me challenger sur l’organisation administrative de la structure, la recherche de clients et la négociation commerciale. Je n’ai choisi que de courtes missions que j’étais capable d’effectuer rapidement sur mon temps libre tout en conservant une bonne qualité de prestation.",
+    "text_7": "En parallèle de mon activé salariée, j’ai réalisé des missions en auto entrepreneur. Le but était de me challenger sur l’organisation administrative de la structure, la recherche de clients et la négociation commerciale. Je n’ai choisi que de courtes missions que j’étais capable d’effectuer rapidement sur mon temps libre tout en conservant une <b>bonne qualité de prestation</b>.",
 
     "title_8": "CONSULTANT WEB, PHONEGAP ET UX",
     "date_8": "Janvier 2013 - Juin 2013",
@@ -60,12 +56,11 @@ module.exports.resumes = [
     "studies_date_2": "Sept. 2004 - Juin 2006",
 
     "notables": "Projets notables",
-    "notables_desc_1": "Responsable et architecte",
-    "notables_desc_2": "Développeur / Prix DigitalPlace",
-    "notables_desc_3": "Développeur et designer",
-    "notables_desc_4": "Responsable, développeur et intégrateur",
-    "notables_title_5": "Mon site !",
-    "notables_desc_5": "Développeur et designer",
+    "notables_desc_1": "Quasiment tout",
+    "notables_desc_2": "Responsable et architecte",
+    "notables_desc_3": "Développeur / Prix DigitalPlace",
+    "notables_title_4": "Mon site !",
+    "notables_desc_4": "Développeur et designer",
 
     "ref": "Références",
     "ref_desc_3": "Graphiste"
@@ -90,17 +85,17 @@ module.exports.resumes = [
     "experiences": "Experiences",
     "experiences_next": "Experiences (next)",
 
-		"title_1": "Software Engineer",
-		"date_1": "July 2015 - Today",
-		"text_1": "Hired as a frontend developer (but quickly i had to manage JAVA backend too) i've been working on different business environments, usually to bring a monolitic webapp to a modular and extensible dependency. With this knowledege, i've defined, with a group, SICPA's next solution to build, test and develop webapps. Due to limited knowledge out of <b>AngularJS</b>, in the web developper community, we kept this framework, but we prepared the migration to <b>Angular 2</b> by using <b>Typescript</b> and a component approach. Once in place with a solid cli and build chain, i've <b>lead different presentations and workshops</b> to help other developpers to work with this stak. The adpotion was fast and positive.<br/>Since 1 year and a half, i've to joined the team in charge of deployment tools and development, <b>testing</b> libraries (UI/UX styleguide, skeletons, supports for gRPC, Keycloak, Kafka, Selenium) on this platform based on <b>OpenShift</b>. We have provided a pipeline to ease <b>continuous release and deployment</b>. I've acted as Scrum Master/Developer, again in the service of developers.",
+    "title_1": "Software Engineer",
+    "date_1": "February 2018 - Today",
+    "text_1": "In order to work in a business environment i care about, i've started to work on 2 projects and some tools to ease the development. Each one for <b>free and open source</b>. The first one is an education tool for teacher and students based on Freinet's pedagogy. The second one is a spending budget webapp <b>focused</b> on people and family with financial difficulties.",
 
-    "title_2": "Web Expert",
-    "date_2": "October 2014 - January 2015",
-    "text_2": "I've put my Web and <b>UI/UX</b> experiences to work with a young team at the conception of an Intent OS that run own made or third party javascript applications. Development of two SDK, one for communication, the other one as styleguide. <b>Accompaniment in a graphical and ergonomic</b> evolution of the current platform for a better adoption of the users and clients.",
+		"title_2": "Software Engineer",
+		"date_2": "July 2015 - November 2017",
+		"text_2": "Hired as a frontend developer (but quickly move to fullstack) i've been working on different business environments, usually to bring a monolitic webapp to a modular dependency. With this knowledege, i've defined, with a group, SICPA's next solution to build, test and develop webapps. Due to limited knowledge out of <b>AngularJS</b>, in the web developper community, we kept this framework, but we prepared the migration to <b>Angular 2</b> by using <b>Typescript</b> and a component approach. Once in place, i've <b>lead different presentations and workshops</b> to help other developpers to work with.<br/>Since 1 year and a half, i've to joined the team in charge of deployment tools and development, <b>testing</b> libraries (styleguides, supports for gRPC, Keycloak, Kafka) on this platform based on <b>OpenShift</b>. We have provided a pipeline to ease <b>continuous release and deployment</b>. I've acted as Scrum Master/Developer, again in the service of developers.",
 
-    "title_3": "NETEVENT PROJECT MANAGER",
-    "date_3": "September 2014 - October 2014",
-    "text_3": "Client manager and PhoneGap developer for a QR scanner and consultation application, published on Google Play Store, Apple Store and Windows Phone Store, following <b>design guidelines of each platform</b>.",
+    "title_3": "Web Expert",
+    "date_3": "October 2014 - January 2015",
+    "text_3": "I've put my Web and <b>UI/UX</b> experiences to work with a young team at the conception of an Intent OS that run own made or third party javascript applications. Development of two SDK, one for communication, the other one as styleguide. <b>Accompaniment in a graphical and ergonomic</b> evolution of the current platform for a better adoption of the users and clients.",
 
     "title_5": "FIDELPASS PROJECT MANAGER",
     "date_5": "July 2009 - September 2014",
@@ -127,12 +122,11 @@ module.exports.resumes = [
     "studies_date_2": "Sept. 2004 - June 2006",
 
     "notables": "Notables",
-    "notables_desc_1": "Manager and architect",
-    "notables_desc_2": "Developer / DigitalPlace price",
-    "notables_desc_3": "Developer and designer",
-    "notables_desc_4": "Manager, developer and integrator",
-    "notables_title_5": "Own website !",
-    "notables_desc_5": "Developer and designer",
+    "notables_desc_1": "Almost everything",
+    "notables_desc_2": "Manager and architect",
+    "notables_desc_3": "Developer / DigitalPlace price",
+    "notables_title_4": "Own website !",
+    "notables_desc_4": "Developer and designer",
 
     "ref": "References",
     "ref_desc_3": "Designer"
