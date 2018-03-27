@@ -1,3 +1,7 @@
+if (location.protocol != 'https:' && location.hostname !== 'localhost') {
+  location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+}
+
 window.onload = function() {
   //If not IE lower than 10
   if (document.getElementById('browserupgrade') === null) {
@@ -16,7 +20,7 @@ window.onload = function() {
     img.onload = function () {
       document.getElementById('menu').insertBefore(img, document.getElementById('menu').firstChild);
     };
-    img.src = 'https://alexgalinier.com/static/images/mea_rounded_200x200.png';
+    img.src = 'https://alexgalinier.com/static/images/mea_300x300.jpg';
 
 
     lazy.load(['alexgalinier.css'], function() {

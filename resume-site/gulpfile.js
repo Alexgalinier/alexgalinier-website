@@ -4,7 +4,7 @@
 var gulp = require('gulp');
 var gutil = require('gulp-util');
 var ftp = require('vinyl-ftp');
-var sass = require('gulp-ruby-sass');
+var sass = require('gulp-sass');
 var inject = require('gulp-inject');
 var clean = require('gulp-clean');
 var browserSync = require('browser-sync');
@@ -34,8 +34,8 @@ var reload = browserSync.reload;
  * TASKS
  * ------------------------------ */
 gulp.task('styles', ['styles:clean'], function () {
-  return sass(stylesFolder+'theme/alexgalinier.sass', {sourcemap: false, container: 'styles'}) //Define a container to avoir error on multiple sass execution
-    .pipe(plumber())
+  return gulp.src(stylesFolder+'theme/alexgalinier.sass')
+    .pipe(sass().on('error', sass.logError))
     .pipe(autoprefixer())
     .pipe(minifyCSS())
     .pipe(gulp.dest(buildFolder));
@@ -47,8 +47,8 @@ gulp.task('styles:clean', function () {
 });
 
 gulp.task('styles-critical', ['styles-critical:clean'], function () {
-  return sass(stylesFolder+'/theme/alexgalinier-critical.sass', {sourcemap: false, container: 'styles-critical'})  //Define a container to avoir error on multiple sass execution
-    .pipe(plumber())
+  return gulp.src(stylesFolder+'/theme/alexgalinier-critical.sass')
+    .pipe(sass().on('error', sass.logError))
     .pipe(autoprefixer())
     .pipe(minifyCSS())
     .pipe(gulp.dest(buildFolder));
@@ -170,6 +170,8 @@ gulp.task('serve-reload', ['build'], function() {
 gulp.task('build', ['inject', 'scripts', 'styles', 'images', 'templates', 'humantxt', 'fonts']);
 
 gulp.task('deploy', ['build'], function () {
+  console.log(require('../sensitive-data').ftp.host);
+
   var conn = ftp.create( {
     host: require('../sensitive-data').ftp.host,
     user: require('../sensitive-data').ftp.user,
