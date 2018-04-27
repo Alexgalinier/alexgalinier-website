@@ -305,4 +305,21 @@ module.exports.letters = [
 		"pdf_link_text": "If my resume is not available or has been blocked, you can download it at :",
 		"pdf_link": "https://alexgalinier.com/static/documents/Alex-Galinier-Resume-EN.pdf"
 	},
+
+  {
+    "name":    "mindojo",
+    "lang":    "en",
+    "title":   "Alex Galinier | Mindojo, introduction",
+    "visu":    "Visualize this email in your browser",
+    "age":     "31 years",
+    "subject": "Hi team,",
+    "date":    "April 27th 2018",
+    "prg_1":   "I contact you to propose my candidature for the Senior Frontend Software Engineer job.",
+    "prg_2":   "I would love to meet you to discuss this job. I think education is one of the most important value we should enforce. In order to understand how the world behave, people or a job. After 9 years of work in different roles and company, i now try to focus on what matters to me. Do i work to create something useful for all of us (not just another trash or big money maker machine) ? And just by reading the job description, i feel the answer could be yes. That's why i would like to talk more about it",
+    "prg_3":   "Here is my portfolio if you want to look at my experiences and skills : <a href=\"https://alexgalinier.com/\">https://alexgalinier.com</a>",
+    "prg_4":   "If you don't want to go further with my application, please, give a quick feedback on what was not matching your criterias in my cover letter or resume.",
+    "final":   "SINCERELY",
+    "pdf_link_text": "If my resume is not available or has been blocked, you can download it at :",
+    "pdf_link": "https://alexgalinier.com/static/documents/Alex-Galinier-Resume-EN.pdf"
+  },
 ]

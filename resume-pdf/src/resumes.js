@@ -25,7 +25,7 @@ module.exports.resumes = [
 
     "title_2": "Software Engineer",
 		"date_2": "July 2015 - November 2017",
-		"text_2": "Embauché comme developpeur frontend (rapidement fullstack) j'ai travailler dans différents environnements métier, pour transformer des webapps monolithiques en composants extensibles. Avec ces connaissances, j'ai eu à définir, en groupe, <b>l'architecture (dév, tests, ...) des webapps</b> de la prochaine solution Sicpa (l'adpotion fut rapide et positive).<br/>J'ai eu la chance de rejoindre l'équipe en charge des outils de déploiement et des librairies de développement (UI/UX styleguide, skeletons, supports for gRPC, Keycloak, Kafka) de cette solution basée sur <b>OpenShift</b>. Je divisais mon travail entre Scrum Master et développeur, au service des autres.",
+		"text_2": "Embauché comme developpeur frontend (rapidement fullstack) j'ai travaillé dans différents environnements métier, pour transformer des webapps monolithiques en composants extensibles. Avec ces connaissances, j'ai eu à définir, en groupe, <b>l'architecture (dév, tests, ...) des webapps</b> de la prochaine solution Sicpa (l'adpotion fut rapide et positive).<br/>J'ai eu la chance de rejoindre l'équipe en charge des outils de déploiement et des librairies de développement (UI/UX styleguide, skeletons, supports for gRPC, Keycloak, Kafka) de cette solution basée sur <b>OpenShift</b>. Je divisais mon travail entre Scrum Master et développeur, au service des autres.",
 
     "title_3": "Consultant Expert Web",
     "date_3": "Octobre 2014 - Janvier 2015",
