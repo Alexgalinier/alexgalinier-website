@@ -3,7 +3,7 @@
  * ------------------------------ */
 var gulp = require('gulp');
 var Q = require('q');
-var sass = require('gulp-ruby-sass');
+var sass = require('gulp-sass');
 var del = require('del');
 var browserSync = require('browser-sync');
 var watch = require('gulp-watch');
@@ -12,7 +12,7 @@ var plumber = require('gulp-plumber');
 var minifyCSS = require('gulp-minify-css');
 var imagemin = require('gulp-imagemin');
 var replace = require('gulp-replace');
-var rename = require("gulp-rename");
+var rename = require('gulp-rename');
 
 /* ------------------------------
  * VARIABLES
@@ -28,35 +28,44 @@ var reload = browserSync.reload;
 /* ------------------------------
  * TASKS
  * ------------------------------ */
-gulp.task('styles', ['styles:clean'], function () {
-  return sass(stylesFolder+'theme/alexgalinier.sass', {sourcemap: false, container: 'styles'}) //Define a container to avoir error on multiple sass execution
-    .pipe(plumber())
-    .pipe(autoprefixer())
-    .pipe(minifyCSS())
+gulp.task('styles', ['styles:clean'], function() {
+  // return sass(stylesFolder + 'theme/alexgalinier.sass', {
+  //   sourcemap: false,
+  //   container: 'styles',
+  // }) //Define a container to avoir error on multiple sass execution
+  //   .pipe(plumber())
+  //   .pipe(autoprefixer())
+  //   .pipe(minifyCSS())
+  //   .pipe(gulp.dest(buildFolder));
+  return gulp
+    .src(stylesFolder + 'theme/alexgalinier.sass')
+    .pipe(sass().on('error', sass.logError))
     .pipe(gulp.dest(buildFolder));
 });
 
-gulp.task('styles:clean', function () {
-  return del([buildFolder+'alexgalinier\\.css']);
+gulp.task('styles:clean', function() {
+  return del([buildFolder + 'alexgalinier\\.css']);
 });
 
-gulp.task('images', function () {
-  return gulp.src(imagesFolder+'*')
-    //.pipe(imagemin())
-    .pipe(gulp.dest(buildFolder+'images'));
+gulp.task('images', function() {
+  return (
+    gulp
+      .src(imagesFolder + '*')
+      //.pipe(imagemin())
+      .pipe(gulp.dest(buildFolder + 'images'))
+  );
 });
 
-gulp.task('images:clean', function () {
-  return del([buildFolder+'images/']);
+gulp.task('images:clean', function() {
+  return del([buildFolder + 'images/']);
 });
 
 gulp.task('fonts', ['fonts:clean'], function() {
-  return gulp.src(srcFolder+'fonts/*')
-    .pipe(gulp.dest(buildFolder+'fonts'))
+  return gulp.src(srcFolder + 'fonts/*').pipe(gulp.dest(buildFolder + 'fonts'));
 });
 
 gulp.task('fonts:clean', function() {
-  return del([buildFolder+'fonts/*']);
+  return del([buildFolder + 'fonts/*']);
 });
 
 gulp.task('index', function() {
@@ -64,20 +73,38 @@ gulp.task('index', function() {
     resumes = require('./src/resumes.js').resumes;
 
   buildIndex(resumes[0], 'index', '<div class="page">', deferred, false);
-  buildIndex(resumes[0], 'resume-fr-print', '<div class="page print-page">', deferred, false);
-  buildIndex(resumes[1], 'resume-en-mail', '<div class="page">', deferred, false);
-  buildIndex(resumes[1], 'resume-en-print', '<div class="page print-page">', deferred, true);
+  buildIndex(
+    resumes[0],
+    'resume-fr-print',
+    '<div class="page print-page">',
+    deferred,
+    false,
+  );
+  buildIndex(
+    resumes[1],
+    'resume-en-mail',
+    '<div class="page">',
+    deferred,
+    false,
+  );
+  buildIndex(
+    resumes[1],
+    'resume-en-print',
+    '<div class="page print-page">',
+    deferred,
+    true,
+  );
 
   return deferred.promise;
 });
 
 gulp.task('serve', ['build'], function() {
   browserSync({
-    server: buildFolder
+    server: buildFolder,
   });
 
   //watch(srcFolder+'**/*', function() {
-    //gulp.start('serve-reload');
+  //gulp.start('serve-reload');
   //});
 });
 
@@ -92,7 +119,8 @@ gulp.task('build', ['styles', 'images', 'fonts', 'index']);
  */
 
 function buildIndex(data, name, printDiv, promise, doResolve) {
-  gulp.src([srcFolder+'index.html'])
+  gulp
+    .src([srcFolder + 'index.html'])
     .pipe(replace(/#PRINT_DIV#/g, printDiv))
     //Profile
     .pipe(replace(/#PROFILE#/g, data.profile))
@@ -157,9 +185,11 @@ function buildIndex(data, name, printDiv, promise, doResolve) {
     //Ref
     .pipe(replace(/#REF#/g, data.ref))
     .pipe(replace(/#REF_DESC_3#/g, data.ref_desc_3))
-    .pipe(rename(function (path) {
-      path.basename = path.basename.replace('index', name);
-    }))
+    .pipe(
+      rename(function(path) {
+        path.basename = path.basename.replace('index', name);
+      }),
+    )
     .pipe(gulp.dest(buildFolder))
     .on('end', function() {
       if (doResolve) {
